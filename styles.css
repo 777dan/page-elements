@@ -1,0 +1,25 @@
+.darkThemeBody {
+    background-color: #041f22;
+}
+
+.darkThemeText {
+    color: #f0fafc;
+}
+
+#change-theme {
+    position: fixed;
+    right: 0;
+}
+
+#change-theme > button {
+    display: block;
+}
+
+#setLightTheme {
+    background-color: #e1f4f6;
+}
+
+#setDarkTheme {
+    background-color: #041f22;
+    color: #f0fafc;
+}

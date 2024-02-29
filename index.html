@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nature Guide</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Nature Guide</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="jumbotron jumbotron-fluid my-4">
+    <div class="container text-center">
+      <h1 class="display-4">Discover Nature With Us!</h1>
+      <p class="lead">We offer excursions and trips to the most beautiful corners of nature.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
+    </div>
+  </header>
+
+  <div id="change-theme">
+    <button class="btn my-1" id="setLightTheme">Set light theme</button>
+    <button class="btn my-1" id="setDarkTheme">Set dark theme</button>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container my-4">
+    <div class="row">
+      <div class="col-md-6 my-3">
+        <h2>Hiking Adventures</h2>
+        <p>Explore scenic trails and discover breathtaking landscapes on our guided hiking adventures.</p>
+      </div>
+      <div class="col-md-6 my-3">
+        <h2>Kayaking Excursions</h2>
+        <p>Paddle through serene waters and explore hidden coves on our exciting kayaking excursions.</p>
+      </div>
+      <div class="col-md-6 my-3">
+        <h2>Rock Climbing Expeditions</h2>
+        <p>Challenge yourself and conquer towering cliffs on our thrilling rock climbing expeditions.</p>
+      </div>
+      <div class="col-md-6 my-3">
+        <h2>Camping Retreats</h2>
+        <p>Immerse yourself in nature and enjoy nights under the stars on our unforgettable camping retreats.</p>
+      </div>
+      <div class="col-md-6 my-3">
+        <h2>Biking Tours</h2>
+        <p>Experience the beauty of nature up close as you pedal through scenic landscapes on our guided biking tours.</p>
+      </div>
+      <div class="col-md-6 my-3">
+        <h2>Wildlife Safaris</h2>
+        <p>Encounter majestic wildlife and observe them in their natural habitats on our thrilling wildlife safaris.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer bg-dark text-light text-center py-4">
+    <div class="container">
+      <span>Nature Guide &copy; 2024</span>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
